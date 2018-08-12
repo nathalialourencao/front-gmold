@@ -1,0 +1,293 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Induscity - Responsive  HTML5 Template</title>
+	
+	<meta name="description" content="Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!">
+	<meta name="author" content="Induscity - Responsive Induscityl  HTML5 Template">
+	<meta name="copyright" content="Induscity - Responsive Induscityl  HTML5 Template">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushCss.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+#documenter_sidebar ol a {
+    border-bottom: 1px solid #242424;
+    border-top: 1px solid #575757;
+    color: #a8a7a7;
+}
+#documenter_sidebar ol a {
+    text-shadow: 1px 1px 0 #575757;
+}
+#documenter_sidebar, #documenter_sidebar ol a {
+    background-color: #363636;
+    color: #a8a7a7;
+}
+#documenter_sidebar ol a {
+    border-bottom: 1px solid #aaa;
+    border-top: 1px solid #ddd;
+    display: block;
+    padding: 6px 15px 7px 0;
+    text-align: right;
+}
+#documenter_sidebar a {
+    position: relative;
+    z-index: 100;
+}
+#documenter_sidebar ol a {
+  border-bottom: 1px solid #242424;
+  border-top: 1px solid #575757;
+  color: #a8a7a7;
+}
+#documenter_sidebar ol a.current {
+  background: #404040 none repeat scroll 0 0;
+  border-top: 1px solid #333;
+  color: #b50d0d;
+}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#html_structure">HTML Structure</a></li>
+			<li><a href="#css_files_and_structure">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#contactform">Contact Form</a></li>
+			<li><a href="#psd_files">PSD Files</a></li>
+			<li><a href="#sources_and_credits">Sources and Credits</a></li>
+
+		</ol>
+		<div id="documenter_copyright"> Copyright Induscity - Responsive Induscityl  HTML5 Template 2018
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>Induscity</h1><h2>Responsive HTML5/CSS3 Template<br>
+</h2><hr><ul><li>Created: 15/04/2018</li><li>latest Update: 15/04/2018</li><li>By: Induscity - Responsive Induscity  HTML5 Template</li><li><a href=""></a></li><li>website: <a href="http://steelthemes.com;">steelthemes.com</a></li></ul><p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p></section><section id="html_structure">
+	<h3>HTML Structure</h3><hr class="notop">
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; line-height: 18px; -webkit-text-size-adjust: none; ">This theme is a Responsive layout.. The general template structure is the same throughout the template. Here is the general structure.</span></p>
+<p>
+	<img alt="" src="assets/images/image_2.png" ></p>
+<p>
+	If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+<pre class="brush: css">
+#content a {color: #someColor;} </pre>
+<p>
+	If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn&#39;t a similar style that has more weight.</p>
+<p>
+	I.E.</p>
+<pre class="brush: css">
+.container #content a {color: #someColor;}</pre>
+<p>
+	So, to ensure that your new styles are applied, make sure that they carry enough &quot;weight&quot; and that there isn&#39;t a style lower in the CSS file that is being applied after yours.</p>
+</section>
+
+<section id="css_files_and_structure">
+	<h3>CSS Files and Structure</h3><hr class="notop">
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; line-height: 18px; -webkit-text-size-adjust: none; ">I&#39;m using one main CSS file and two addition styles one for responsibility layout (skeleton.css) and one other for slider settings, there are general styles for whole theme and reset styles inside main style.css. Many browser interpret the default behavior of html elements differently. By using a general reset CSS styles in this file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.</span></p>
+<p>&nbsp;
+	</p>
+<pre class="brush: css">
+/* Induscity -  Theme HTML Template */
+
+
+/************ TABLE OF CONTENTS ***************
+1. Reset
+2. Global Settings
+3. Typography Style
+4. All Elements Design
+5. Preloader
+6. Header
+7. Main Navigations
+8. Page Conents
+9. Carousel
+10.News Section
+11.Single News
+12.services Section
+13.Projects Section
+14.404 page
+15.Back To Top
+16.Comments Style
+17.Sidebar Widgets
+18.Sidebar Services
+19.shop Section
+20.Shop single
+21.Shop widget
+22.Contact location
+23.Services style
+24.Prtfolio Section
+25.Testimonials
+26.Pricing
+27.Counter
+28.Our Team
+29.Contact info box
+30.Progress bar
+31.Footer
+32.Page Header
+33.cart Table
+34.Custom Quote
+35.check Out page
+</pre>
+<p>
+	If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+<p>
+	Any images that are placed within the blog section have 5px worth of padding and a light bluish background. If you would like to edit the display of these images, find the following section in the style sheet:</p>
+<pre class="brush: css">
+#content .entry img {
+   change styles here:
+}
+</pre>
+<p>&nbsp;
+	</p>
+</section>
+
+<section id="javascript">
+	<h3>Framework</h3><hr class="notop">
+<p>
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 18px; -webkit-text-size-adjust: none; ">This theme used most popular HTML, CSS, and JS framework;</span><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 18px; -webkit-text-size-adjust: none; ">You can see some help info, when click links which are below each regarding framework:</strong></p>
+<ol>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; ">Bootstrap</strong>&nbsp;-  is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web., please visit&nbsp;<a href="http://getbootstrap.com/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">http://getbootstrap.com/</a></li>
+</ol>
+</section>
+
+<section id="javascript">
+	<h3>Css Files </h3><hr class="notop">
+<p>
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 18px; -webkit-text-size-adjust: none; "></span><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 18px; -webkit-text-size-adjust: none; ">You can see some help info, when click links which are below each regarding css:</strong></p>
+<ol>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; ">Animate.css</strong>&nbsp;-  is a bunch of cool, fun, and cross-browser animations for you to use in the projects., please visit&nbsp;<a href="https://daneden.github.io/animate.css/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">https://daneden.github.io/animate.css/</a></li>
+     <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; ">Owl Carousel css</strong>&nbsp;Refer to the&nbsp;<a href="https://owlcarousel2.github.io/OwlCarousel2/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author's documentation</a>&nbsp;for additional notes on how to use it.</li>
+     <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; ">bootstrap</strong><span style="font-family: inherit; font-style: inherit; ">&nbsp;Refer to the&nbsp;</span><a href="http://getbootstrap.com/" style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author's documentation</a><span style="font-family: inherit; font-style: inherit; ">&nbsp;for additional notes on how to use it.</span></li>		
+</ol>
+</section>
+
+<section id="javascript">
+	<h3>Fonts </h3><hr class="notop">
+<p>
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 18px; -webkit-text-size-adjust: none; "></span><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 18px; -webkit-text-size-adjust: none; ">You can see some help info, when click links which are below each regarding fonts:</strong></p>
+<ol>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; ">Google Fonts</strong>&nbsp;- Directory provides high-quality web fonts that you can include in your pages using the Google Font API. Available at &nbsp;<a href="https://fonts.google.com/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">https://fonts.google.com/</a></li>
+</ol>
+</section>
+
+<section id="javascript">
+	<h3>JavaScript</h3><hr class="notop">
+<p>
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 18px; -webkit-text-size-adjust: none; ">This theme imports 10 Javascript files.&nbsp;</span><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 18px; -webkit-text-size-adjust: none; ">You can see some help info, when click links which are below each regarding script:</strong></p>
+<ol>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; ">jQuery</strong>&nbsp;- is a Javascript library that greatly reduces the amount of code that you must write. For more information, please visit&nbsp;<a href="http://www.jquery.com/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">http://www.jquery.com/</a></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; ">Mixitup</strong>. Refer to the&nbsp;<a href="https://mixitup.kunkalabs.com" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author&#39;s documentation</a>&nbsp;for additional notes on how to use it.</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; ">jQuery Revolution Slider</strong>&nbsp;Refer to the&nbsp;<a href="http://revolution.themepunch.com/jquery/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author&#39;s documentation</a>&nbsp;for additional notes on how to use it.</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; ">Owl Carousel 2</strong>&nbsp;Refer to the&nbsp;<a href="https://owlcarousel2.github.io/OwlCarousel2/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author&#39;s documentation</a>&nbsp;for additional notes on how to use it.</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; ">jQuery Fancybox Popup</strong><span style="font-family: inherit; font-style: inherit; ">&nbsp;Refer to the&nbsp;</span><a href="http://fancyapps.com/fancybox/" style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author&#39;s documentation</a><span style="font-family: inherit; font-style: inherit; ">&nbsp;for additional notes on how to use it.</span></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; ">jQuery Validatr</strong><span style="font-family: inherit; font-style: inherit; ">&nbsp;Refer to the&nbsp;</span><a href="http://jaymorrow.github.io/validatr/" style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author&#39;s documentation</a><span style="font-family: inherit; font-style: inherit; ">&nbsp;for additional notes on how to use it.</span></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; ">jQuery countTo</strong><span style="font-family: inherit; font-style: inherit; ">&nbsp;Refer to the&nbsp;</span><a href="https://github.com/mhuggins/jquery-countTo" style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author&#39;s documentation</a><span style="font-family: inherit; font-style: inherit; ">&nbsp;for additional notes on how to use it.</span></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; ">jQuery Themepunch Tools</strong><span style="font-family: inherit; font-style: inherit; ">&nbsp;Refer to the&nbsp;</span><a href="http://revolution.themepunch.com/jquery/" style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author&#39;s documentation</a><span style="font-family: inherit; font-style: inherit; ">&nbsp;for additional notes on how to use it.</span></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; ">jQuery.appear</strong><span style="font-family: inherit; font-style: inherit; ">&nbsp;Refer to the&nbsp;</span><a href="https://github.com/morr/jquery.appear" style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author&#39;s documentation</a><span style="font-family: inherit; font-style: inherit; ">&nbsp;for additional notes on how to use it.</span></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		<strong style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; ">bootstrap</strong><span style="font-family: inherit; font-style: inherit; ">&nbsp;Refer to the&nbsp;</span><a href="http://getbootstrap.com/" style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">author&#39;s documentation</a><span style="font-family: inherit; font-style: inherit; ">&nbsp;for additional notes on how to use it.</span></li>
+</ol>
+</section>
+
+
+<section id="contactform">
+	<h3>Contact Form</h3><hr class="notop">
+
+<h4>You can send live working mail through your contact form after three changes are give below.Please follow given changes carefully.</h4>	
+	
+1. Find line number 4  in mail.php and change your theme location  like  ($url = 'http://servermaintain.com/contact/';) &nbsp;	 to &nbsp; ($url = 'your folder location';)	<br><br>
+	
+2.Find line number 11 in mail.php  and change mail id like (graphicrajkumar@gmail.com) &nbsp; to &nbsp; (youmail@gmail.com).<br><br>
+
+3.Find line number 22 in mail.php  and change mail id of which server you are using like (info@servermaintain.com) &nbsp; to  &nbsp;(info@yourdomain.com).
+
+
+
+	
+	
+</section>
+
+<section id="psd_files">
+	<h3>PSD Files</h3><hr class="notop">
+<p>
+	I&#39;ve included three psds with this theme:</p>
+<ol>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; ">
+		Logo of Induscityl  theme psd is given</li>
+
+</ol>
+
+</section>
+<section id="sources_and_credits">
+	<h3>Sources and Credits</h3><hr class="notop">
+<p>
+	I&#39;ve used <a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848">Slider Revolution</a>&nbsp;jQuery plugin in this template.</p>
+<p>
+	I&#39;ve used the following images, icons or other files as listed.</p>
+<ul>
+	<li>
+		<a href="photodune.net/?_ga=1.178053029.1430580702.1456235109">Photodune</a></li>
+	<li>
+		<a href="https://fortawesome.github.io/Font-Awesome/icons/">Font-Awesome icons</a></li>
+	<li>
+		<a href="http://lab.csschopper.com/placeholder/">Placeholder</a></li>
+	<li>
+		<a href="www.google.com/fonts/">Google Fonts</a></li>
+	<li>
+		<a href="https://picjumbo.com">PicJumbo</a></li>
+
+</ul>
+<hr>
+<p>
+	Once again, thank you so much for purchasing this theme. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this theme. No guarantees, but I&#39;ll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+<p>
+	<strong>Induscity - Responsive Induscityl  HTML5 Template</strong></p>
+</section>
+
+	</div>
+</body>
+</html>

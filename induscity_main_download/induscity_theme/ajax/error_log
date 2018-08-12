@@ -1,0 +1,14 @@
+[08-Jan-2018 03:21:27 America/New_York] PHP Warning:  file_get_contents(http://servermaintain.com/email_template/contact.html): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/server/public_html/contact/ajax/mail.php on line 12
+[08-Jan-2018 03:21:27 America/New_York] PHP Notice:  Undefined index: name in /home/server/public_html/contact/ajax/mail.php on line 17
+[08-Jan-2018 03:21:28 America/New_York] PHP Warning:  file_get_contents(http://servermaintain.com/email_template/auto_responder.html): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/server/public_html/contact/ajax/mail.php on line 30
+[08-Jan-2018 03:21:28 America/New_York] PHP Notice:  Undefined variable: store_name in /home/server/public_html/contact/ajax/mail.php on line 33
+[08-Jan-2018 03:21:28 America/New_York] PHP Notice:  Undefined index: name in /home/server/public_html/contact/ajax/mail.php on line 34
+[08-Jan-2018 03:36:58 America/New_York] PHP Notice:  Undefined index: name in /home/server/public_html/contact/ajax/mail.php on line 17
+[08-Jan-2018 03:36:59 America/New_York] PHP Notice:  Undefined variable: store_name in /home/server/public_html/contact/ajax/mail.php on line 33
+[08-Jan-2018 03:36:59 America/New_York] PHP Notice:  Undefined index: name in /home/server/public_html/contact/ajax/mail.php on line 34
+[08-Jan-2018 03:40:23 America/New_York] PHP Notice:  Undefined index: name in /home/server/public_html/contact/ajax/mail.php on line 17
+[08-Jan-2018 03:40:23 America/New_York] PHP Notice:  Undefined variable: store_name in /home/server/public_html/contact/ajax/mail.php on line 33
+[08-Jan-2018 03:40:23 America/New_York] PHP Notice:  Undefined index: name in /home/server/public_html/contact/ajax/mail.php on line 34
+[08-Jan-2018 03:43:08 America/New_York] PHP Notice:  Undefined variable: store_name in /home/server/public_html/contact/ajax/mail.php on line 33
